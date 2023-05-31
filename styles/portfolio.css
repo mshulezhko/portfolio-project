@@ -25,13 +25,16 @@ h1 {
     font-size: 96px;
 }
 
-p {
-    font-weight: normal;
+h2 {
+    font-size: 63px;
 }
 
-/* h2 {
-    font-family: 'Poppins', sans-serif;
-} */
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 
 .hero {
     background-color: var(--secondary-color);
@@ -60,4 +63,36 @@ p {
     padding: 18px 46px;
     font-size: 18px;
     line-height: 27px;
+}
+
+.btn-branding-outline {
+    color: var(--branding-color);
+    border-radius: 4px;
+    border: 1px solid var(--branding-color);
+    padding: 18px 46px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.project-description {
+    padding: 80px 60px;
+}
+
+@media(max-width:900px) {
+    .project-description {
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
 }
