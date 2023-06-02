@@ -79,10 +79,6 @@ p {
     padding: 80px 60px;
 }
 
-.container {
-    max-width: 100%;
-}
-
 .logo {
     max-height: 40px;
 }
@@ -111,7 +107,6 @@ nav a:hover,
 nav li.active a {
     color: var(--branding-color);
 }
-
 
 .content-container {
     padding: 160px 20px;
@@ -168,6 +163,63 @@ nav li.active a {
     color: #272142;
     opacity: 70%;
 }
+
+footer {
+    margin: 70px 0;
+}
+
+footer .contact-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 30px 120px;
+    margin-bottom: 40px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color)
+}
+
+.email-link-footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-link {
+    text-align: center;
+    margin: 40px;
+}
+
+footer .social-link a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+
+}
+
+footer .social-link a:hover {
+    color: #F9F7FE;
+    background-color: var(--branding-color);
+    ;
+}
+
 
 @media(max-width:900px) {
     .project-description {
