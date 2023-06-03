@@ -21,9 +21,39 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Mariia is a front-end engineer based in Norway."
+    />
+    <title>Front-end Developer - Mariia Shulezhko</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="img/logo.png" class="logo d-none d-md-block" alt="Logo" />
+          <img
+            src="img/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Logo"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About page"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Work page"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact page"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -36,11 +66,13 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a class="btn btn-branding" href="#!">View all project</a>
+            <a class="btn btn-branding" href="#!" title="View all project"
+              >View all project</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/img/girl.png" alt="girl" class="img-fluid" />
+          <img src="/img/girl.png" alt="Photo portrait" class="img-fluid" />
         </div>
       </div>
     </div>
