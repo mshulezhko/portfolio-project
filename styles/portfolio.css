@@ -103,6 +103,10 @@ nav a {
     margin-left: 15px;
 }
 
+#me {
+    width: 400px;
+}
+
 nav a:hover,
 nav li.active a {
     color: var(--branding-color);
